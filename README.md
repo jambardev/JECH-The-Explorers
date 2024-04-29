@@ -1,2 +1,2 @@
 # Team Name: JECH-The-Explorers
-**Scrum Master** James B **Team members** Harrison Chris Elmi **Project Idea** Travel guide
+**Scrum Master** <span style="color:blue">James B</span> **Team members** <span style="color:blue">Harrison Chris Elmi</span> **Project Idea** <span style="color:blue">Travel guide</span>
