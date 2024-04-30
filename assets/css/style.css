@@ -128,29 +128,48 @@ header {
 /* ----------------------------------------Footer */
 
 footer {
-    background-color: #8595A1;
+    background-color: #0F7173;
     min-height: 120px;
     position: absolute;
     bottom: 0;
     padding-top: 1rem;
-
     
 }
 #address {
     margin-top: 1rem;
 }
+
+#address p, #address h5, #address h3, #address a{
+    color: #ECE0E6;
+}
+
+#address a:hover {
+    color: #AEF5C7;
+}
 .btn-primary {
-    border: none ;
+    background-color: #8595A1 ;
+    color: #0F7173;
+    border: none;
+}
+.btn-primary h5 {
+    color: #0F7173;
 }
 
 .btn:hover {
-    background-color: #;
+    background-color: #AEF5C7 ;
+    color: #0F7173;
 }
 
 .social-links .list-inline-item .fa{
-   margin: 1rem;
+   margin: 0.5rem;
+   color: #8595A1
 }
-
+#social-section h5 {
+    color: #8595A1;
+}
+.social-links .list-inline-item .fa:hover {
+    color: #AEF5C7;
+}
 /* ----------------------------------------Activites */
 
 
