@@ -113,6 +113,10 @@ header {
     margin: 0;
 }
 
+.navbar-custom {
+    background-color: #0F7173;
+}
+
 
 /*--------------------------------------------Hover.css*/
 
@@ -161,15 +165,16 @@ footer {
 }
 
 .social-links .list-inline-item .fa{
-   margin: 0.5rem;
-   color: #8595A1
-}
-#social-section h5 {
-    color: #8595A1;
-}
-.social-links .list-inline-item .fa:hover {
-    color: #AEF5C7;
-}
+    margin: 0.5rem;
+    color: #8595A1
+ }
+ #social-section h5 {
+     color: #8595A1;
+ }
+ .social-links .list-inline-item .fa:hover {
+     color: #AEF5C7;
+ }
+
 /* ----------------------------------------Activites */
 
 
