@@ -199,6 +199,18 @@ footer {
 /* ----------------------------------------Attractions */
 
 
+/* ----------------------------------------Newsletter */
+
+.newsletter-form {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+}
+
+.form-control {
+    padding: 10px;
+}
+
 @media (min-width: 576px) {}
 
 @media (min-width 768px) {}
