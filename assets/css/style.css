@@ -198,6 +198,8 @@ footer {
     background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
     text-align: right;
 }
+
+
 /* ----------------------------------------Attractions */
 
 h1 {
@@ -206,11 +208,21 @@ h1 {
 
 
 
-
-
-
-
 /*------------------------ media querys */
+
+
+/* ----------------------------------------Newsletter */
+
+.newsletter-form {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+}
+
+.form-control {
+    padding: 10px;
+}
+
 @media (min-width: 576px) {}
 
 @media (min-width 768px) {}
