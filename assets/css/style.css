@@ -147,19 +147,16 @@ footer {
     color: #AEF5C7;
 }
 .btn-primary {
-    border-color: #0093B0 ;
-    border-width: 0.2rem;
-    background-color: #0F7173 ;
-    color: #8595A1;
+    background-color: #8595A1 ;
+    color: #0F7173;
 }
 .btn-primary h5 {
-    color: #8595A1;
+    color: #0F7173;
 }
 
 .btn:hover {
-    border-color: #0093B0 ;
     background-color: #AEF5C7 ;
-    color: #8595A1;
+    color: #0F7173;
 }
 
 .social-links .list-inline-item .fa{
