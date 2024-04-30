@@ -113,6 +113,10 @@ header {
     margin: 0;
 }
 
+.navbar-custom {
+    background-color: #0F7173;
+}
+
 
 /*--------------------------------------------Hover.css*/
 
@@ -161,19 +165,37 @@ footer {
 }
 
 .social-links .list-inline-item .fa{
-   margin: 0.5rem;
-   color: #8595A1
-}
-#social-section h5 {
-    color: #8595A1;
-}
-.social-links .list-inline-item .fa:hover {
-    color: #AEF5C7;
-}
+    margin: 0.5rem;
+    color: #8595A1
+ }
+ #social-section h5 {
+     color: #8595A1;
+ }
+ .social-links .list-inline-item .fa:hover {
+     color: #AEF5C7;
+ }
+
 /* ----------------------------------------Activites */
 
-
-
+#activities {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+#activity1box {
+    background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
+}
+ #activity2box {
+    background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
+    text-align: right;
+}
+#activity3box {
+    background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
+}
+#activity4box {
+    background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
+    text-align: right;
+}
 /* ----------------------------------------Attractions */
 
 
