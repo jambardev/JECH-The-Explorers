@@ -184,6 +184,8 @@ footer {
 }
 #activity1box {
     background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
+    object-fit: contain;
+    background-size: cover;
 }
  #activity2box {
     background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
@@ -198,7 +200,17 @@ footer {
 }
 /* ----------------------------------------Attractions */
 
+h1 {
+    text-align: center;
+}
 
+
+
+
+
+
+
+/*------------------------ media querys */
 @media (min-width: 576px) {}
 
 @media (min-width 768px) {}
