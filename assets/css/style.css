@@ -1,3 +1,160 @@
-p {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/* CSS Pallete 
+# ECE0E6    0F7173  0093B0  AEF5C7  8595A1 */
+/* 
+* {
+    margin: 0;
+    padding: 0;
 }
+}
+/*--------------------------------------------Colors*/
+
+.bg-color-name-title {
+    background-color: #;
+}
+.bg-color-section1 {
+    background-color: #;
+}
+
+.bg-color-section2 {
+    background-color: #;
+}
+
+.ui-menu-color-home {
+    background-color: #;
+}
+
+.ui-menu-color-activities{
+    background-color: #;
+}
+
+.ui-menu-color-attractions{
+    background-color: #;
+}
+
+.ui-menu-color-newsletter {
+    background-color: #;
+}
+
+html {
+    background-color: #;
+}
+/* ----------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/*--------------------------------------------Heading*/
+
+header {
+    margin: 0;
+}
+
+#header-img {
+    background-image: url("");
+
+}
+
+.name {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 200;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.title {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #ffffff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+
+/*--------------------------------------------Hover.css*/
+
+.hover-zoom:hover {
+    background: linear-gradient(
+        45deg,
+        #,
+        # 100%
+      );
+}
+
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: #;
+    color: #;
+    min-height: 120px;
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: #;
+    border: none ;
+}
+
+.btn:hover {
+    background-color: #;
+}
+
+/* ----------------------------------------Activites */
+
+
+
+/* ----------------------------------------Attractions */
+
+
+@media (min-width: 576px) {}
+
+@media (min-width 768px) {}
+
+@media (min-width 992px) {}
+
+@media (min-width 1200px) {}
+
+@media (min-width 1400px) {}
