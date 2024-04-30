@@ -149,6 +149,7 @@ footer {
 .btn-primary {
     background-color: #8595A1 ;
     color: #0F7173;
+    border: none;
 }
 .btn-primary h5 {
     color: #0F7173;
