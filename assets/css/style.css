@@ -1,3 +1,12 @@
-p {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* CSS Pallete 
+# ECE0E6    0F7173  0093B0  AEF5C7  8595A1 */
+
+/* 
+* {
+    margin: 0;
+    padding: 0;
+
 }
