@@ -202,10 +202,30 @@ footer {
 
 /* ----------------------------------------Attractions */
 
-h1 {
+#attractionbox h1 {
     text-align: center;
 }
-
+#attractions {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+#attractions1box {
+    background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
+    object-fit: contain;
+    background-size: cover;
+}
+ #attractions2box {
+    background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
+    text-align: right;
+}
+#attractions3box {
+    background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
+}
+#attractions4box {
+    background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
+    text-align: right;
+}
 
 
 /*------------------------ media querys */
