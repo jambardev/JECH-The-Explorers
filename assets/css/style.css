@@ -205,12 +205,19 @@ h1, .text-center {
 }
 
 .index-list li {
+    font-family: sedgwick;
+    letter-spacing: 2px;
     margin-bottom: 10px;
-    background-color: #f5f5f5;
+    background-color:  #AEF5A3;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.index-list li:hover {
+    background-color: #ccc; 
+}
+
 
 /* Style for strong elements within list items */
 .indexlist strong {
