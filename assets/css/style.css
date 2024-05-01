@@ -107,6 +107,7 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #ffffff;
+    
 }
 
 .list-inline-item:not(:last-child) {
@@ -244,13 +245,13 @@ h1 {
  }
     
 #attractions3box {
-    background-image: url(../images/bristol-museum-exterior.jpg);
+    background-image: url(../images/bristol_museum_and_art_gallery.jpg);
     background-size: cover;
     height: 28rem;
 }
 
 #attractions4box {
-    background-image: url(../images/pexels-lebele-13099584.jpg);
+    background-image: url(../images/download.jpeg);
     background-size:cover;
     height: 28rem;
 }
