@@ -9,7 +9,6 @@
 }
 }
 /*--------------------------------------------Colors*/
-
 .bg-color-name-title {
     background-color: #;
 }
@@ -202,6 +201,11 @@ h1, .text-center {
 .index-list ul {
     list-style: none;
     padding: 0;
+}
+
+#map {
+    max-width: 99vw;
+    max-height: auto;
 }
 
 .index-list li {
