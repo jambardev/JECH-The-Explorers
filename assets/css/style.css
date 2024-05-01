@@ -189,7 +189,6 @@ footer {
 
 #activity1box {
     height: 30rem;
-    width: 100%;
     padding-left: none;
 }
 #activity1bg {
@@ -300,19 +299,51 @@ footer {
         border-radius: 1rem;
         font-weight: bold;
         margin: none;
-        position: relative;
-        margin-top: -30rem;
+        float:left;
     }
 
     .roundcornerpad{
-        padding: 0 2rem 0 0;
-        color:#ECE0E6;
+        padding: 0 2rem 0 1rem;
+        color:#0F7173;
         margin-top: 1rem;
-        text-align: center;
+        text-align: center center;
+    }
+    .activitybox {
+        background-color: #AEF5C7;
+        padding: 0 0 0 0;
+    }
+    #right {
+        float: right;
+        text-align: end;
+        padding-left: 2rem;
+    }
+    #right2 {
+        float: right;
+        text-align: end;
+        padding-left: 2rem;
     }
     #activity1box {
-        background-color: #8595A1;
+        height: 35rem;
     }
-}
-
+    #activity1bg {
+        height: 35rem;
+    }
+    #activity2box {
+        height: 35rem;
+    }
+    #activity2bg {
+        height: 35rem;
+    }
+    #activity3box {
+        height: 35rem;
+    }
+    #activity3bg {
+        height: 35rem;
+    }
+    #activity4box {
+        height: 35rem;
+    }
+    #activity4bg {
+        height: 35rem;
+    }
 @media (min-width 1400px) {}
