@@ -261,6 +261,7 @@ h1 {
     text-align: center;
 }
 
+
 #attractions{
     padding: 0;
     width: 100%;
@@ -379,6 +380,10 @@ h1 {
         background-color: #AEF5C7;
         padding: 0 0 0 0;
     }
+    .attractionbox {
+        background-color: #AEF5C7;
+        padding: 0 0 0 0;
+    }
     #right {
         float: right;
         text-align: end;
@@ -411,6 +416,31 @@ h1 {
         height: 35rem;
     }
     #activity4bg {
+        height: 35rem;
+    }
+
+    #attraction1box {
+        height: 35rem;
+    }
+    #attraction1bg {
+        height: 35rem;
+    }
+    #attraction2box {
+        height: 35rem;
+    }
+    #attraction2bg {
+        height: 35rem;
+    }
+    #attraction3box {
+        height: 35rem;
+    }
+    #attraction3bg {
+        height: 35rem;
+    }
+    #attraction4box {
+        height: 35rem;
+    }
+    #attraction4bg {
         height: 35rem;
     }
 @media (min-width 1400px) {}
