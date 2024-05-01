@@ -186,11 +186,16 @@ h1, .text-center {
     text-align: center;
 }
 
+.p {
+    text-align: center;
+}
+
 /* Spacing for lists */
 .index-list {
     display: flex;
     justify-content: space-around;
     margin-top: 20px; 
+    text-align: center;
 }
 
 /* Optional: Styling for list items */
@@ -219,6 +224,19 @@ h1, .text-center {
     cursor: pointer; /* Add pointer cursor on hover */
 }
 
+.text-center em a {
+    display: inline-block;
+    padding: 8px 16px; /* Smaller padding */
+    background-color: #ddd; /* Light grey background color */
+    color: #333; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 20px; /* Rounder corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.text-center em a:hover {
+    background-color: #ccc; 
+}
 /* ----------------------------------------Activites */
 
 #activities {
