@@ -261,28 +261,68 @@ h1 {
     text-align: center;
 }
 
-#attractions1box {
+#attractions{
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+
+#attraction1box {
+    height: 30rem;
+    padding-left: none;
+}
+#attraction1bg {
     background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
     background-size:cover;
-    height: 28rem;
+    background-position: center;
+    height: 30rem;
+    align-content: center;
 }
-
- #attractions2box {
+#attraction2box {
+    height: 30rem;
+    text-align: right;
+}
+#attraction2bg {
     background-image: url(../images/pexels-barbarabober-6053628.jpg);
-    background-size:cover;
-    height: 28rem;
- }
-    
-#attractions3box {
-    background-image: url(../images/bristol_museum_and_art_gallery.jpg);
+    object-fit: contain;
     background-size: cover;
-    height: 28rem;
+    background-position: right;
+    height: 30rem;
+}
+#attraction3box {
+    height: 30rem;
+}
+#attraction3bg {
+    background-image: url(../images/bristol_museum_and_art_gallery.jpg);
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
+#attraction4box {
+    height: 30rem;
+}
+#attraction4bg {
+    background-image: url(../images/download.jpeg);
+    object-fit: contain;
+    background-size: cover;
+    background-position: top;
+    height: 30rem;
+    text-align: right;
+}
+.transpbg {
+    background-color: #8595A1CA;
+    border-radius: 1rem;
+    font-weight: bold;
+    margin: 1rem;
+    position: relative;
+    margin-top: -30rem;
 }
 
-#attractions4box {
-    background-image: url(../images/download.jpeg);
-    background-size:cover;
-    height: 28rem;
+.roundcornerpad{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color:#ECE0E6;
+    margin-top: 1rem;
 }
 
 /*------------------------ media querys */
