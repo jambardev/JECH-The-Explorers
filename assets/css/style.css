@@ -197,35 +197,64 @@ list-style-type: none;
     width: 100%;
     margin: 0;
 }
+
 #activity1box {
+    height: 30rem;
+    padding-left: none;
+}
+#activity1bg {
     background-image: url(../images/trail\ biking.jpg);
     background-size:cover;
-    height: 20rem;
+    background-position: center;
+    height: 30rem;
+    align-content: center;
 }
- #activity2box {
-    background-image: url(../images/climbing-cathedral.jpeg);
+#activity2box {
+    height: 30rem;
+    text-align: right;
+}
+#activity2bg {
+    background-image: url(../images/church\ climb.png);
     object-fit: contain;
     background-size: cover;
-    height: 20rem;
-    text-align: right;
+    background-position: right;
+    height: 30rem;
 }
 #activity3box {
-    background-image: url(../images/bristol-street-art-1200x675.jpg);
+    height: 30rem;
+}
+#activity3bg {
+    background-image: url(../images/briststreetart.jpg);
     object-fit: contain;
     background-size: cover;
-    height: 20rem;
-    text-align: right;
-}
+    background-position: center;
+    height: 30rem;
 }
 #activity4box {
-    background-image: url(../images/20240126_BristolCityForest_WC-48-1536x1025.jpg);
+    height: 30rem;
+}
+#activity4bg {
+    background-image: url(../images/20230817_Bears_Women_v_U18_RT_0207-1536x1024.jpg);
     object-fit: contain;
     background-size: cover;
-    height: 20rem;
+    background-position: top;
+    height: 30rem;
     text-align: right;
 }
+.transpbg {
+    background-color: #8595A1CA;
+    border-radius: 1rem;
+    font-weight: bold;
+    margin: 1rem;
+    position: relative;
+    margin-top: -30rem;
+}
 
-
+.roundcornerpad{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color:#ECE0E6;
+    margin-top: 1rem;
+}
 /* ----------------------------------------Attractions */
 
 h1 {
@@ -291,6 +320,61 @@ h1 {
     }
 }
 
+@media screen and (min-width: 1200px) {
+    .transpbg {
+        background: none;
+        border-radius: 1rem;
+        font-weight: bold;
+        margin: none;
+        float:left;
+    }
+
+    .roundcornerpad{
+        padding: 0 2rem 0 1rem;
+        color:#0F7173;
+        margin-top: 1rem;
+        text-align: center center;
+    }
+    .activitybox {
+        background-color: #AEF5C7;
+        padding: 0 0 0 0;
+    }
+    #right {
+        float: right;
+        text-align: end;
+        padding-left: 2rem;
+    }
+    #right2 {
+        float: right;
+        text-align: end;
+        padding-left: 2rem;
+    }
+    #activity1box {
+        height: 35rem;
+    }
+    #activity1bg {
+        height: 35rem;
+    }
+    #activity2box {
+        height: 35rem;
+    }
+    #activity2bg {
+        height: 35rem;
+    }
+    #activity3box {
+        height: 35rem;
+    }
+    #activity3bg {
+        height: 35rem;
+    }
+    #activity4box {
+        height: 35rem;
+    }
+    #activity4bg {
+        height: 35rem;
+    }
+@media (min-width 1400px) {}
+=======
 @media (min-width: 1200px) {}
 
 @media (min-width: 1400px) {}
