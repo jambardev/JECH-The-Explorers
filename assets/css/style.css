@@ -192,29 +192,36 @@ footer {
     height: 20rem;
 }
  #activity2box {
-    background-image: url(../images/climbing-cathedral.jpeg);
+    background-image: url(../images/church\ climb.png);
     object-fit: contain;
     background-size: cover;
     height: 20rem;
     text-align: right;
 }
 #activity3box {
-    background-image: url(../images/bristol-street-art-1200x675.jpg);
+    background-image: url(../images/briststreetart.jpg);
     object-fit: contain;
     background-size: cover;
+    background-position: center;
     height: 20rem;
-    text-align: right;
-}
 }
 #activity4box {
-    background-image: url(../images/20240126_BristolCityForest_WC-48-1536x1025.jpg);
+    background-image: url(../images/20230817_Bears_Women_v_U18_RT_0207-1536x1024.jpg);
     object-fit: contain;
     background-size: cover;
     height: 20rem;
     text-align: right;
 }
+.transpbg {
+    background-color: #8595A1CA;
+    border-radius: 1rem;
+    font-weight: bold;
+}
 
-
+.roundcornerpad{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color:#ECE0E6;
+}
 /* ----------------------------------------Attractions */
 
 #attractionbox h1 {
