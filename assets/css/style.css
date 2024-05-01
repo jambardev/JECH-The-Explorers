@@ -186,44 +186,64 @@ footer {
     width: 100%;
     margin: 0;
 }
+
 #activity1box {
+    height: 30rem;
+    width: 100%;
+    padding-left: none;
+}
+#activity1bg {
     background-image: url(../images/trail\ biking.jpg);
     background-size:cover;
     background-position: center;
-    height: 20rem;
+    height: 30rem;
+    align-content: center;
 }
 #activity2box {
+    height: 30rem;
+    text-align: right;
+}
+#activity2bg {
     background-image: url(../images/church\ climb.png);
     object-fit: contain;
     background-size: cover;
     background-position: right;
-    height: 20rem;
-    text-align: right;
+    height: 30rem;
 }
 #activity3box {
+    height: 30rem;
+}
+#activity3bg {
     background-image: url(../images/briststreetart.jpg);
     object-fit: contain;
     background-size: cover;
     background-position: center;
-    height: 20rem;
+    height: 30rem;
 }
 #activity4box {
+    height: 30rem;
+}
+#activity4bg {
     background-image: url(../images/20230817_Bears_Women_v_U18_RT_0207-1536x1024.jpg);
     object-fit: contain;
     background-size: cover;
     background-position: top;
-    height: 20rem;
+    height: 30rem;
     text-align: right;
 }
 .transpbg {
     background-color: #8595A1CA;
     border-radius: 1rem;
     font-weight: bold;
+    margin: 1rem;
+    position: relative;
+    margin-top: -30rem;
 }
 
 .roundcornerpad{
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     color:#ECE0E6;
+    margin-top: 1rem;
 }
 /* ----------------------------------------Attractions */
 
@@ -274,14 +294,24 @@ footer {
 
 @media (min-width 992px) {}
 
-@media screen and (min-width 1200px) {
-
-    #activity1box {
-        text-align: right;
+@media screen and (min-width: 1200px) {
+    .transpbg {
+        background: none;
+        border-radius: 1rem;
+        font-weight: bold;
+        margin: none;
+        position: relative;
+        margin-top: -30rem;
     }
+
     .roundcornerpad{
-        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-        color:#0F7173;
+        padding: 0 2rem 0 0;
+        color:#ECE0E6;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    #activity1box {
+        background-color: #8595A1;
     }
 }
 
