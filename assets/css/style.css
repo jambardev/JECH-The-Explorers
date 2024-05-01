@@ -188,18 +188,29 @@ footer {
 }
 #activity1box {
     background-image: url(../images/trail\ biking.jpg);
-    object-fit: contain;
-    background-size: cover;
+    background-size:cover;
+    height: 20rem;
 }
  #activity2box {
     background-image: url(../images/climbing-cathedral.jpeg);
+    object-fit: contain;
+    background-size: cover;
+    height: 20rem;
     text-align: right;
 }
 #activity3box {
     background-image: url(../images/bristol-street-art-1200x675.jpg);
+    object-fit: contain;
+    background-size: cover;
+    height: 20rem;
+    text-align: right;
+}
 }
 #activity4box {
     background-image: url(../images/20240126_BristolCityForest_WC-48-1536x1025.jpg);
+    object-fit: contain;
+    background-size: cover;
+    height: 20rem;
     text-align: right;
 }
 
