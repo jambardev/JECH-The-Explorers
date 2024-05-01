@@ -107,6 +107,7 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #ffffff;
+    
 }
 
 .list-inline-item:not(:last-child) {
@@ -179,6 +180,16 @@ footer {
      color: #AEF5C7;
  }
 
+/* ----------------------------------------Index */
+
+.index-list {
+    margin-left: 15%;
+}
+
+.indexlist {
+list-style-type: none;
+}
+
 /* ----------------------------------------Activites */
 
 #activities {
@@ -246,40 +257,46 @@ footer {
 }
 /* ----------------------------------------Attractions */
 
-#attractionbox h1 {
+h1 {
     text-align: center;
 }
-#attractions {
-    padding: 0;
-    width: 100%;
-    margin: 0;
-}
+
 #attractions1box {
     background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
-    object-fit: contain;
-    background-size: cover;
-}
- #attractions2box {
-    background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
-    text-align: right;
-}
-#attractions3box {
-    background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
-}
-#attractions4box {
-    background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
-    text-align: right;
+    background-size:cover;
+    height: 28rem;
 }
 
+ #attractions2box {
+    background-image: url(../images/pexels-barbarabober-6053628.jpg);
+    background-size:cover;
+    height: 28rem;
+ }
+    
+#attractions3box {
+    background-image: url(../images/bristol_museum_and_art_gallery.jpg);
+    background-size: cover;
+    height: 28rem;
+}
+
+#attractions4box {
+    background-image: url(../images/download.jpeg);
+    background-size:cover;
+    height: 28rem;
+}
 
 /*------------------------ media querys */
 
 
 /* ----------------------------------------Newsletter */
 
+.newsletter-background {
+    background-color: #ECE0E6;
+}
+
 .newsletter-form {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 40px;
 }
 
@@ -287,11 +304,21 @@ footer {
     padding: 10px;
 }
 
+.newsletter-image {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
 @media (min-width: 576px) {}
 
-@media (min-width 768px) {}
+@media (min-width: 768px) {}
 
-@media (min-width 992px) {}
+@media (min-width: 992px) {
+    .newsletter-form {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
 
 @media screen and (min-width: 1200px) {
     .transpbg {
@@ -347,3 +374,7 @@ footer {
         height: 35rem;
     }
 @media (min-width 1400px) {}
+=======
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
