@@ -189,12 +189,14 @@ footer {
 #activity1box {
     background-image: url(../images/trail\ biking.jpg);
     background-size:cover;
+    background-position: center;
     height: 20rem;
 }
- #activity2box {
+#activity2box {
     background-image: url(../images/church\ climb.png);
     object-fit: contain;
     background-size: cover;
+    background-position: right;
     height: 20rem;
     text-align: right;
 }
@@ -209,6 +211,7 @@ footer {
     background-image: url(../images/20230817_Bears_Women_v_U18_RT_0207-1536x1024.jpg);
     object-fit: contain;
     background-size: cover;
+    background-position: top;
     height: 20rem;
     text-align: right;
 }
@@ -271,6 +274,15 @@ footer {
 
 @media (min-width 992px) {}
 
-@media (min-width 1200px) {}
+@media screen and (min-width 1200px) {
+
+    #activity1box {
+        text-align: right;
+    }
+    .roundcornerpad{
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        color:#0F7173;
+    }
+}
 
 @media (min-width 1400px) {}
