@@ -248,9 +248,13 @@ footer {
 
 /* ----------------------------------------Newsletter */
 
+.newsletter-background {
+    background-color: #ECE0E6;
+}
+
 .newsletter-form {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 40px;
 }
 
@@ -258,12 +262,22 @@ footer {
     padding: 10px;
 }
 
+.newsletter-image {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
 @media (min-width: 576px) {}
 
-@media (min-width 768px) {}
+@media (min-width: 768px) {}
 
-@media (min-width 992px) {}
+@media (min-width: 992px) {
+    .newsletter-form {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
 
-@media (min-width 1200px) {}
+@media (min-width: 1200px) {}
 
-@media (min-width 1400px) {}
+@media (min-width: 1400px) {}
