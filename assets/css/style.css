@@ -259,6 +259,7 @@ list-style-type: none;
 
 h1 {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -294,7 +295,7 @@ h1 {
     height: 30rem;
 }
 #attraction3bg {
-    background-image: url(../images/bristol_museum_and_art_gallery.jpg);
+    background-image: url(../images/pexels-zsolti-tamasi-3170415-19198609.jpg);
     object-fit: contain;
     background-size: cover;
     background-position: center;
