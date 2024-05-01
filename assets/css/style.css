@@ -116,7 +116,11 @@ header {
 .navbar-custom {
     background-color: #0F7173;
 }
-
+body {
+    min-height: 100vw;
+    display: flex;
+    flex-direction: column;
+}
 
 /*--------------------------------------------Hover.css*/
 
@@ -134,9 +138,9 @@ header {
 footer {
     background-color: #0F7173;
     min-height: 120px;
-    position: absolute;
     bottom: 0;
     padding-top: 1rem;
+    margin-top: auto
     
 }
 #address {
@@ -177,16 +181,80 @@ footer {
 
 /* ----------------------------------------Activites */
 
+#activities {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+#activity1box {
+    background-image: url(../images/trail\ biking.jpg);
+    background-size:cover;
+    height: 20rem;
+}
+ #activity2box {
+    background-image: url(../images/climbing-cathedral.jpeg);
+    object-fit: contain;
+    background-size: cover;
+    height: 20rem;
+    text-align: right;
+}
+#activity3box {
+    background-image: url(../images/bristol-street-art-1200x675.jpg);
+    object-fit: contain;
+    background-size: cover;
+    height: 20rem;
+    text-align: right;
+}
+}
+#activity4box {
+    background-image: url(../images/20240126_BristolCityForest_WC-48-1536x1025.jpg);
+    object-fit: contain;
+    background-size: cover;
+    height: 20rem;
+    text-align: right;
+}
 
 
 /* ----------------------------------------Attractions */
 
+#attractionbox h1 {
+    text-align: center;
+}
+#attractions {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+#attractions1box {
+    background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
+    object-fit: contain;
+    background-size: cover;
+}
+ #attractions2box {
+    background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
+    text-align: right;
+}
+#attractions3box {
+    background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
+}
+#attractions4box {
+    background-image: url(../images/pexels-faridvisuals-2004493-9831432.jpg);
+    text-align: right;
+}
+
+
+/*------------------------ media querys */
+
 
 /* ----------------------------------------Newsletter */
 
+.newsletter-background {
+    background-color: #ECE0E6;
+}
+
 .newsletter-form {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 40px;
 }
 
@@ -194,12 +262,22 @@ footer {
     padding: 10px;
 }
 
+.newsletter-image {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
 @media (min-width: 576px) {}
 
-@media (min-width 768px) {}
+@media (min-width: 768px) {}
 
-@media (min-width 992px) {}
+@media (min-width: 992px) {
+    .newsletter-form {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
 
-@media (min-width 1200px) {}
+@media (min-width: 1200px) {}
 
-@media (min-width 1400px) {}
+@media (min-width: 1400px) {}
