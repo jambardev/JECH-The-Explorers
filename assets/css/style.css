@@ -10,35 +10,13 @@
 }
 /*--------------------------------------------Colors*/
 
-.bg-color-name-title {
-    background-color: #;
-}
-.bg-color-section1 {
-    background-color: #;
-}
-
-.bg-color-section2 {
-    background-color: #;
-}
-
-.ui-menu-color-home {
-    background-color: #;
-}
-
-.ui-menu-color-activities{
-    background-color: #;
-}
-
-.ui-menu-color-attractions{
-    background-color: #;
-}
-
-.ui-menu-color-newsletter {
-    background-color: #;
-}
-
 html {
-    background-color: #;
+    background-color: #ECE0E6;
+}
+.form-control {
+    background-color: #AEF5C7;
+    color: #8595A1;
+    font-family: "Quicksand", sans-serif;
 }
 /* ----------------------------------------Special paddings/margins/text */
 
@@ -51,12 +29,15 @@ h4 {
 }
 .pagetitle {
     font-family: "Quicksand", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
+    background-color: #ECE0E6;
+    padding: 2rem 0 2rem 0;
+    color: #0F7173;
 
 }
 .headers {
     font-family: "Quicksand", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 .uppercase {
     text-transform: uppercase;
@@ -65,8 +46,8 @@ h4 {
 
 .general-sub {
     font-family: "Quicksand", sans-serif;
-    font-weight: 200;
-    color: #000000;
+    font-weight: 500;
+    color: #0F7173;
 }
 
 .inline-block {
@@ -102,23 +83,6 @@ header {
 
 }
 
-.name {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 200;
-    font-size: 46px;
-    margin-top: 50px;
-    color: #ffffff;
-}
-
-.title {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 200;
-    font-size: 22px;
-    margin-top: 20px;
-    margin-bottom: 90px;
-    color: #ffffff;
-    
-}
 
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -173,7 +137,12 @@ footer {
 .btn-primary h5 {
     color: #0F7173;
 }
-
+.btn {
+    background-color: #0F7173 ;
+    color: #ECE0E6;
+    font-weight: 500;
+    border: none;
+}
 .btn:hover {
     background-color: #AEF5C7 ;
     color: #0F7173;
