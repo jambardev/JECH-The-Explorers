@@ -163,6 +163,10 @@ footer {
 
 /* ----------------------------------------Index */
 
+#indimg {
+    max-height: 85vh;
+}
+
 h1, .text-center {
     text-align: center;
 }
