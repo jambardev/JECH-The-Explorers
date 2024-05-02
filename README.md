@@ -47,8 +47,8 @@ when a feature or change was created we then created pull requests. These are to
 - An issue with the newsletter page, we cannot see the full image displayed as footer is in the way.
 
 # Testing and Bugs
-- **W3c Validator:**
--  **HTML:** <img src="assets/images/error1.png" width="auto" height="150">  **CSS:** <img src="assets/images/Error2.png" width="auto" height="150">
+- **W3c Validator:** <br>
+   **HTML:** <img src="assets/images/error1.png" width="auto" height="150"> <br> **CSS:** <img src="assets/images/Error2.png" width="auto" height="150">
 
 # Deployment
 - **Github Pages** - https://jambardev.github.io/JECH-The-Explorers/
