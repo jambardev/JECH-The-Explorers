@@ -475,6 +475,10 @@ h1 {
     #attraction4bg {
         height: 35rem;
     }
+    .social-links .list-inline-item .fa{
+        margin: 1rem;
+        transform: scale(200%);
+    }    
 @media (min-width 1400px) {}
 =======
 @media (min-width: 1200px) {}
