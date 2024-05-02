@@ -84,7 +84,7 @@ header {
     background-color: #0F7173;
 }
 body {
-    min-height: 100vw;
+    min-height: auto;
     display: flex;
     flex-direction: column;
 }
@@ -109,11 +109,11 @@ body {
 
 footer {
     background-color: #0F7173;
-    min-height: 120px;
+    height: auto;
     bottom: 0;
     padding-top: 1rem;
-    margin-top: auto
-    
+    margin-top: auto;
+    max-height: 100vh;   
 }
 #address {
     margin-top: 1rem;
