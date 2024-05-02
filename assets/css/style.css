@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 /* CSS Pallete 
 # ECE0E6    0F7173  0093B0  AEF5C7  8595A1 */
-/* 
-* {
-    margin: 0;
-    padding: 0;
-}
-}
+
 /*--------------------------------------------Colors*/
 
 html {
@@ -372,9 +368,6 @@ h1 {
     margin-top: 1rem;
 }
 
-/*------------------------ media querys */
-
-
 /* ----------------------------------------Newsletter */
 
 .newsletter-background {
@@ -394,6 +387,8 @@ h1 {
     margin-top: 20px;
     max-width: 100%;
 }
+
+/*------------------------ media querys */
 
 @media (min-width: 576px) {}
 
@@ -491,9 +486,10 @@ h1 {
     .social-links .list-inline-item .fa{
         margin: 1rem;
         transform: scale(200%);
-    }    
-@media (min-width 1400px) {}
-=======
+    }   
+
+@media (min-width: 1400px) {}
+
 @media (min-width: 1200px) {}
 
 @media (min-width: 1400px) {}
