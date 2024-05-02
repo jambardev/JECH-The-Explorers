@@ -49,13 +49,23 @@ h4 {
     margin: 0;
     color: black;
 }
+.pagetitle {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+
+}
+.headers {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+}
 .uppercase {
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .general-sub {
     font-family: "Quicksand", sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     color: #000000;
 }
 
