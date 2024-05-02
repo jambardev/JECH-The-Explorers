@@ -43,7 +43,8 @@ when a feature or change was created we then created pull requests. These are to
 
 
 # Testing and Bugs
-lorem ipsum
+- **W3c Validator:**
+-  **BEFORE:** <img src="assets/images/error1.png" width="auto" height="150">  **AFTER:** <img src="assets/images/Error2.png" width="auto" height="150">
 
 # Deployment
-lorem ipsum
+- **Github Pages** - https://jambardev.github.io/JECH-The-Explorers/
