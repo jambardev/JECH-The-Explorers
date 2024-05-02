@@ -141,6 +141,7 @@ footer {
     font-weight: 500;
     border: none;
 }
+
 .btn:hover {
     background-color: #AEF5C7 ;
     color: #0F7173;
@@ -153,6 +154,9 @@ footer {
 
 .btn-primary i {
     color: #0F7173;
+}
+.btnsearch {
+    color: #ECE0E6;
 }
 .social-links .list-inline-item .fa{
     margin: 0.5rem;
