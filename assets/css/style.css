@@ -10,35 +10,13 @@
 }
 /*--------------------------------------------Colors*/
 
-.bg-color-name-title {
-    background-color: #;
-}
-.bg-color-section1 {
-    background-color: #;
-}
-
-.bg-color-section2 {
-    background-color: #;
-}
-
-.ui-menu-color-home {
-    background-color: #;
-}
-
-.ui-menu-color-activities{
-    background-color: #;
-}
-
-.ui-menu-color-attractions{
-    background-color: #;
-}
-
-.ui-menu-color-newsletter {
-    background-color: #;
-}
-
 html {
-    background-color: #;
+    background-color: #ECE0E6;
+}
+.form-control {
+    background-color: #AEF5C7;
+    color: #8595A1;
+    font-family: "Quicksand", sans-serif;
 }
 /* ----------------------------------------Special paddings/margins/text */
 
@@ -49,14 +27,27 @@ h4 {
     margin: 0;
     color: black;
 }
+.pagetitle {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    background-color: #ECE0E6;
+    padding: 2rem;
+    color: #0F7173;
+
+}
+.headers {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+}
 .uppercase {
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .general-sub {
     font-family: "Quicksand", sans-serif;
-    font-weight: 300;
-    color: #000000;
+    font-weight: 500;
+    color: #0F7173;
 }
 
 .inline-block {
@@ -92,23 +83,6 @@ header {
 
 }
 
-.name {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 200;
-    font-size: 46px;
-    margin-top: 50px;
-    color: #ffffff;
-}
-
-.title {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 200;
-    font-size: 22px;
-    margin-top: 20px;
-    margin-bottom: 90px;
-    color: #ffffff;
-    
-}
 
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -122,17 +96,22 @@ body {
     display: flex;
     flex-direction: column;
 }
-
-/*--------------------------------------------Hover.css*/
-
-.hover-zoom:hover {
-    background: linear-gradient(
-        45deg,
-        #,
-        # 100%
-      );
+.navbar-brand {
+    font-family: "Sedgwick Ave Display", sans-serif;
+    font-size: 220%;
+    color:#ECE0E6;
 }
-
+.navbar-brand:hover {
+    color: #AEF5C7;
+}
+.nav-link {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    color: #ECE0E6;
+}
+.nav-link:hover {
+    color: #AEF5C7;
+}
 
 /* ----------------------------------------Footer */
 
@@ -155,20 +134,30 @@ footer {
 #address a:hover {
     color: #AEF5C7;
 }
-.btn-primary {
-    background-color: #8595A1 ;
-    color: #0F7173;
+
+.btn {
+    background-color: #0F7173 ;
+    color: #ECE0E6;
+    font-weight: 500;
     border: none;
-}
-.btn-primary h5 {
-    color: #0F7173;
 }
 
 .btn:hover {
     background-color: #AEF5C7 ;
     color: #0F7173;
 }
+.btn-primary {
+    background-color: #8595A1 ;
+    color: #8595A1;
+    border: none;
+}
 
+.btn-primary i {
+    color: #0F7173;
+}
+.btnsearch {
+    color: #ECE0E6;
+}
 .social-links .list-inline-item .fa{
     margin: 0.5rem;
     color: #8595A1
@@ -392,7 +381,6 @@ h1 {
 .form-control {
     padding: 10px;
 }
-
 .newsletter-image {
     margin-top: 20px;
     max-width: 100%;
@@ -491,6 +479,10 @@ h1 {
     #attraction4bg {
         height: 35rem;
     }
+    .social-links .list-inline-item .fa{
+        margin: 1rem;
+        transform: scale(200%);
+    }    
 @media (min-width 1400px) {}
 =======
 @media (min-width: 1200px) {}
