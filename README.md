@@ -28,6 +28,11 @@ Two fonts sourced from google fonts:  'Quicksand' & 'Sedgwick'
 - Informative website with images and related text
 - An option for users to sign up for a newsletter
 
+# User Stories
+- As a user I want to be able to see what there is to do in Bristol so I can plan a trip.
+- As the Site Owner I want to provide information about the city in an appealing way to encourage potential users to come and visit.
+- As a user I want to be able to navigate the website easily to view the relevant information
+
 # Technologies Used
 - Languages <br>
 **HTML:** The basic website structure <br>
@@ -41,10 +46,13 @@ when a feature or change was created we then created pull requests. These are to
 - An issue with the navbar, On mobile screens we cannot toggle the navbar button.
 - An issue with the newsletter page, we cannot see the full image displayed as footer is in the way.
 
-
 # Testing and Bugs
 - **W3c Validator:**
--  **BEFORE:** <img src="assets/images/error1.png" width="auto" height="150">  **AFTER:** <img src="assets/images/Error2.png" width="auto" height="150">
+-  **HTML:** <img src="assets/images/error1.png" width="auto" height="150">  **CSS:** <img src="assets/images/Error2.png" width="auto" height="150">
 
 # Deployment
 - **Github Pages** - https://jambardev.github.io/JECH-The-Explorers/
+
+# Credits 
+- **Images:** - Sourced Free from Pexels website **or** created by a team member
+- **Team** - Well done to all participants for making this a fun and engaging learning experience
