@@ -31,7 +31,7 @@ h4 {
     font-family: "Quicksand", sans-serif;
     font-weight: 700;
     background-color: #ECE0E6;
-    padding: 2rem 0 2rem 0;
+    padding: 2rem;
     color: #0F7173;
 
 }
@@ -96,17 +96,22 @@ body {
     display: flex;
     flex-direction: column;
 }
-
-/*--------------------------------------------Hover.css*/
-
-.hover-zoom:hover {
-    background: linear-gradient(
-        45deg,
-        #,
-        # 100%
-      );
+.navbar-brand {
+    font-family: "Sedgwick Ave Display", sans-serif;
+    font-size: 220%;
+    color:#ECE0E6;
 }
-
+.navbar-brand:hover {
+    color: #AEF5C7;
+}
+.nav-link {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    color: #ECE0E6;
+}
+.nav-link:hover {
+    color: #AEF5C7;
+}
 
 /* ----------------------------------------Footer */
 
@@ -371,7 +376,6 @@ h1 {
 .form-control {
     padding: 10px;
 }
-
 .newsletter-image {
     margin-top: 20px;
     max-width: 100%;
