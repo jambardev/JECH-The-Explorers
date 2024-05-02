@@ -7,11 +7,11 @@ Welcome to our first hackathon project!
 Visit Bristol is a collaborative project, designed by 4 students at CodeInstitute.
 
 # Wireframes
-<img src="../images/mob1.jpg" width="300"><img src="../images/tab2.jpg" width="300"><img src="../images/des3.png" width="600">
-<img src="../images/mob11.png" width="300"><img src="../images/tab22.png" width="300"><img src="../images/des33.png" width="600">
+<img src="assets/images/mob1.jpg" width="300"><img src="assets/images/tab2.jpg" width="300"><img src="assets/images/des3.png" width="600">
+<img src="assets/images/mob11.png" width="300"><img src="assets/images/tab22.png" width="300"><img src="assets/images/des33.png" width="600">
 
 # Favicon
-<img src="../favicon/android-icon-192x192.png">
+<img src="assets/favicon/android-icon-192x192.png">
 
 # Colour Palette 
 Colours sourced from Coolers.com________ # ECE0E6________ # 0F7173________ # 0093B0________ # AEF5C7________ # 8595A1
