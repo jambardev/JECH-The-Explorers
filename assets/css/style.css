@@ -162,7 +162,7 @@ footer {
  }
 
 /* ----------------------------------------Index */
-
+/*Hero Image*/
 #indimg {
     max-height: 85vh;
 }
@@ -218,6 +218,11 @@ h1, .text-center {
 .text-center em a:hover {
     background-color: #AEF5C7;
 }
+
+li a:hover {
+    background-color: #DDDDDD;
+}
+
 
 /* ----------------------------------------Activites */
 
